@@ -33,4 +33,33 @@ n = len(arr)
 #         second_max = arr[i]
 # print("Second max {} and Second min {}".format(second_max, second_min))
 
-    
+## Check if array is sorted or not
+# arr = [3,4,5,1,2]
+# for i in range(len(arr)-1):
+#     if(arr[i]<=arr[i+1]):
+#         flag=True
+#         continue
+#     else:
+#         flag=False
+#         break
+# if flag is False:
+#     print("Array is Unsorted")
+# else:
+#     print("Array is sorted")
+
+# ## Remove Duplicate from Sorted Array
+# arr = [1,1,2,2,3,4,8,9]
+# # # Brute Force Approach
+# # arr = set(arr)
+# # print(arr)
+
+# ## 2 Pointer approach
+# i = 0
+# for j in range(1,len(arr)):
+#     if(arr[i]!=arr[j]):
+#         arr[i+1] = arr[j]
+#         i+=1
+#     else:
+#         j+=1
+# print(arr)    
+# print(i+1)
